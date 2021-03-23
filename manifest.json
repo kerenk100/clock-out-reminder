@@ -1,0 +1,18 @@
+{
+  "name": "Clock Out Reminder",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "Reminds us to stop working and have some fun instead",
+  "browser_action": {
+    "default_icon": "stop_working.png",
+    "default_title": "Clock out reminder",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": ["alarms", "notifications"],
+  "icons": {
+    "128": "stop_working.png"
+  }
+}
